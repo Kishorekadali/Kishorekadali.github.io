@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .frame{
+            background-color:rgb(22, 22, 22);
+            margin:150px 150px 400px 200px;
+            height:350px;
+            width:400px;
+        }
+        body{
+            background-image:url("C:\\Users\\Kisho\\OneDrive\\Pictures\\paymentbg.jpg");
+        background-blend-mode:lighten;
+        background-size: cover;
+        opacity:70%;
+        color:white;
+    }
+    input{
+        height: 30px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+    <form action="paynxt.html">
+    <center>
+    <div class="frame">
+        <h1>PAYMENT VIA CARD</h1>
+        <table>
+    <tr>
+        <td>CARD NUMBER:</td>
+        <td><input type="text"  name="username" size="25" required/></td>
+    </tr>
+   <br>
+    <tr>
+        <td>
+    NAME ON CARD:</td>
+    <td><input type="text"  name="p1" size="25" maxlenth="8" required/></td>
+</tr>
+<br>
+    <tr>
+    <td>CVV  NUMBER:</td>
+    <td><input type="text"  name="CVV" size="25" required/></td>
+</tr>
+<br>
+    <tr>
+    <td>EXPIRY DATE:</td>
+    <td><input type="text"  name="date" size="25"required/></td>
+</tr>
+    
+</table>
+<br>
+<br>
+   <a href="paynxt.html" target="_home"><button style="font-size: 25px; background-color: blue; border-radius: 5px;">SUBMIT</button></a>
+    </div>
+    </center>
+</form>
+</body>
+</html>

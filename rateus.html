@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .frame{
+            background-color:rgba(61, 63, 63, 0.641);
+            margin:150px 150px 300px 400px;
+            height:270px;
+            width:400px;
+        }
+        body{
+            background-image:url("https://media.istockphoto.com/id/665293754/photo/thank-you-word-and-businessman-hand-holding-pen-on-white-background-with-copy-space-business.jpg?s=612x612&w=0&k=20&c=0eLe4ybWhTbYmyDvFFRs8N-bGYL6icm5sJbLn_T9Nxg=");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .rating {
+      display:flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    label {
+      cursor: pointer;
+      font-size: 30px;
+      color: #ccc;
+    }
+
+   label:hover ~ label {
+      color:#ffcc00;
+   }
+button {
+      background-color: #4caf50;
+      color: #fff;
+      border:2px;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color:#45a049;
+    }
+    a{
+      text-decoration: none;
+      font-weight: 100;
+      color:black;
+    }
+    </style>
+</head>
+<body>
+   <div class="frame">
+    <center>
+<h1>Rate Us</h1>
+<<p style="color:white; font-size:20px;";>We will love to hear your feedback.Please rate your experience</p>
+</center>
+<div class="rating">
+    <input type="radio" id="star5" name="rating" value="5">
+    <label for="star5">★</label>
+    <input type="radio" id="star4" name="rating" value="4">
+    <label for="star4">★</label>
+    <input type="radio" id="star3" name="rating" value="3">
+    <label for="star3">★</label>
+    <input type="radio" id="star2" name="rating" value="2">
+    <label for="star2">★</label>
+    <input type="radio" id="star1" name="rating" value="1">
+    <label for="star1">★</label>
+  </div>
+<center>
+    <button><a href="home page.html" target="_home">Submit</a></button>
+</center>
+</body>
